@@ -20,17 +20,12 @@ class PyTest(TestCommand):
         sys.stdout.flush()
         sys.exit(p.returncode)
 
-
-here = os.path.abspath(os.path.dirname(__file__))
-
-def read(*parts):
-    return codecs.open(os.path.join(here, *parts), 'r').read()
-
 setup(
     name='vdfedit',
     version='1.0.0',
     scripts=['vdfedit'],
     install_requires=['PyVDF>=1.0.4'],
+    license='MIT',
     url='https://github.com/amreuland/vdfedit',
     author='Austin Reuland',
     author_email='amreuland@gmail.com',
