@@ -32,12 +32,10 @@ setup(
     tests_require=['pytest'],
     install_requires=['PyVDF>=1.0.2'],
     url='https://github.com/amreuland/vdfedit',
-    license='MIT',
     author='Austin Reuland',
     author_email='amreuland@gmail.com',
     keywords = "VDF KeyValues Valve PyVDF",
     description='Fast and Easy Python Valve Data File (VDF) Reader and Writer',
-    long_description=read('README.md'),
     platforms='any',
     cmdclass={'test': PyTest},
     classifiers = [
